@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  margin-inline: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 17px -3px rgba(0, 0, 0, 0.75);
+  margin-top: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campos {
+  display: flex;
+  gap: 30px;
+}
+
+.campos > * {
+  font-size: 18px;
+  margin-block: auto;
+}
+
+.campo > label {
+  font-size: 14px;
+}
+
+.campo > input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+button {
+  font-size: 18px;
+  padding-block: 5px;
+  padding-inline: 20px;
+  background-color: rgb(57, 90, 240);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
