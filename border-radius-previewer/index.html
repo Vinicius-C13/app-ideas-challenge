@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border-radius-previewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="range-style.css" />
+  </head>
+  <body>
+    <header><h1>BORDER RADIUS PREVEIWER</h1></header>
+    <div class="main">
+      <div class="shape-wrapper">
+        <div class="shape-container">
+          <div class="shape"></div>
+        </div>
+        <form class="control-container">
+          <div class="control">
+            <label for="top-left-controller">superior-esquerdo: </label>
+            <span id="top-left-value">0</span>
+            <br />
+            <input
+              type="range"
+              id="top-left-controller"
+              name="top-left-controller"
+            />
+          </div>
+          <div class="control">
+            <label for="top-right-controller">superior-direito: </label>
+            <span id="top-right-value">0</span>
+            <br />
+            <input
+              type="range"
+              id="top-right-controller"
+              name="top-right-controller"
+            />
+          </div>
+          <div class="control">
+            <label for="bottom-left-controller">inferior-esquerdo: </label>
+            <span id="bottom-left-value">0</span>
+            <br />
+            <input
+              type="range"
+              id="bottom-left-controller"
+              name="bottom-left-controller"
+            />
+          </div>
+          <div class="control">
+            <label for="bottom-right-controller">inferior-direito:</label>
+            <span id="bottom-right-value">0</span>
+            <br />
+            <input
+              type="range"
+              id="bottom-right-controller"
+              name="bottom-right-controller"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="css-info">
+        <p>informação de css</p>
+      </div>
+    </div>
+  </body>
+</html>
